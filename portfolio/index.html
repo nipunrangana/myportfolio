@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="logo">My Portfolio</div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="hero-section">
+            <div class="container">
+                <h1>Welcome to My Portfolio</h1>
+                <p>Your tagline or introduction goes here.</p>
+                <a href="#portfolio" class="btn">View My Work</a>
+            </div>
+        </section>
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>Write a brief bio about yourself. Highlight your skills, experience, and what makes you unique.</p>
+                <img src="images/profile.jpg" alt="Profile Picture">
+            </div>
+        </section>
+        <section id="portfolio" class="portfolio-section">
+            <div class="container">
+                <h2>My Work</h2>
+                <div class="gallery">
+                    <!-- Add your project images and descriptions here -->
+                    <div class="project">
+                        <img src="images/project1.jpg" alt="Project 1">
+                        <div class="project-info">
+                            <h3>Project 1</h3>
+                            <p>Project 1 description</p>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img src="images/project2.jpg" alt="Project 2">
+                        <div class="project-info">
+                            <h3>Project 2</h3>
+                            <p>Project 2 description</p>
+                        </div>
+                    </div>
+                    <!-- Add more projects as needed -->
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <form action="https://formspree.io/YOUR_EMAIL" method="POST">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="_replyto" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
